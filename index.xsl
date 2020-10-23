@@ -58,7 +58,10 @@
 									
                            	    <xsl:when test = "emp-age &lt; 40">  
                                	    Developer 
-                          	    </xsl:when> 
+                          	    </xsl:when>
+				    <xsl:otherwise> 
+                              	    Age and you shall
+                           	    </xsl:otherwise> 
                        	 	    </xsl:choose> 
                      	  	</td>
                             </tr>
