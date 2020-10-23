@@ -17,7 +17,7 @@
                 <h1 style="text-align:center;">Employee Management System</h1>
                 
                     <table border="2" align="center">
-                        <tr bgcolor="#FFA500">
+                        <tr bgcolor="#20B2AA">
 			    <th style="text-align:left">ID</th>
 			    <th style="text-align:left">Name</th>
                             <th style="text-align:left">Age</th>
