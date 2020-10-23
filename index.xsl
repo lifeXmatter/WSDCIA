@@ -52,7 +52,7 @@
                               	    Associate Project Manager 
                            	    </xsl:when> 
 									
-                          	    <xsl:when test = "emp-age < 50 &and; emp-age >=40"> 
+                          	    <xsl:when test = "emp-age &lt; 50 &and; emp-age >=40"> 
                               	    Team Leader 
                           	    </xsl:when> 
 									
