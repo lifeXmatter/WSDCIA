@@ -17,7 +17,7 @@
                 <h1 style="text-align:center;">Employee Management System</h1>
                 
                     <table border="2" align="center">
-                        <tr bgcolor="blockquote">
+                        <tr bgcolor="#FFA500">
 			    <th style="text-align:left">Name</th>
                             <th style="text-align:left">Age</th>
                             <th style="text-align:left">Salary</th>
@@ -40,10 +40,10 @@
                                     <xsl:value-of select="emp-emailid"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="email-phonenum"/>
+                                    <xsl:value-of select="emp-phonenum"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="email-designation"/>
+                                    <xsl:value-of select="emp-designation"/>
                                 </td>
                             </tr>
                         </xsl:for-each>
