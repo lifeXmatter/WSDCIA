@@ -48,13 +48,17 @@
                                 </td>
 				<td> 
                        		    <xsl:choose> 
-                          	    <xsl:when test = "emp-age &GreaterEqual; 50"> 
+                          	    <xsl:when test = "emp-age &gt;= 50"> 
                               	    Associate Project Manager 
                            	    </xsl:when> 
 									
-                          	    <xsl:when test = "emp-age &lt; 50"> 
+                          	    <xsl:when test = "emp-age &lt; 50 and emp-age &gt;= 40"> 
                               	    Team Leader 
                           	    </xsl:when> 
+				    
+				    <xsl:when test = "emp-age &lt; 40 "> 
+                              	    Team Leader 
+                          	    </xsl:when>
 									
 				    <xsl:otherwise> 
                               	    Age and you shall
