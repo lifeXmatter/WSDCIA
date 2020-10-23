@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="index.xsd">
-	<Employee>
+	<Employee id="01">
 		<emp-name>Matt Dameon</emp-name>
 		<emp-age>37</emp-age>
 		<emp-salary>65000</emp-salary>
 		<emp-emailid>mattdameon@company.com</emp-emailid>
 		<emp-phonenum>761451678</emp-phonenum>
 		<emp-designation>Junior Developer</emp-designation>
-	</Employee>
+	</Employee id="02">
 	<Employee>
 		<emp-name>Brad Pitt</emp-name>
 		<emp-age>52</emp-age>
@@ -18,7 +18,7 @@
 		<emp-phonenum>641567867</emp-phonenum>
 		<emp-designation>Lead Developer</emp-designation>
 	</Employee>
-	<Employee>
+	<Employee id="03">
 		<emp-name>Carla Simson</emp-name>
 		<emp-age>29</emp-age>
 		<emp-salary>51000</emp-salary>
@@ -26,7 +26,7 @@
 		<emp-phonenum>867519234</emp-phonenum>
 		<emp-designation>Junior Developer</emp-designation>
 	</Employee>
-	<Employee>
+	<Employee id="04">
 		<emp-name>Riley Issac</emp-name>
 		<emp-age>43</emp-age>
 		<emp-salary>75000</emp-salary>
@@ -34,7 +34,7 @@
 		<emp-phonenum>678911223</emp-phonenum>
 		<emp-designation>Associate Leader</emp-designation>
 	</Employee>
-	<Employee>
+	<Employee id="05">
 		<emp-name>Mark Kext</emp-name>
 		<emp-age>47</emp-age>
 		<emp-salary>90000</emp-salary>
