@@ -24,6 +24,7 @@
                             <th style="text-align:left">Email</th>
                             <th style="text-align:left">MobNum</th>
                             <th style="text-align:left">Designation</th>
+			    <th style="text-align:left">Promotion</th>
                         </tr>
                         <xsl:for-each select="Company/Employee">
                             <tr>
@@ -45,6 +46,21 @@
                                 <td>
                                     <xsl:value-of select="emp-designation"/>
                                 </td>
+				<td> 
+                       		    <xsl:choose> 
+                          	    <xsl:when test = "emp-age >= 50"> 
+                              	    Associate Project Manager 
+                           	    </xsl:when> 
+									
+                          	    <xsl:when test = "emp-age < 50 && emp-age >=40"> 
+                              	    Team Leader 
+                          	    </xsl:when> 
+									
+                           	    <xsl:when test = "emp-age < 40">  
+                               	    Developer 
+                          	    </xsl:when> 
+                       	 	    </xsl:choose> 
+                     	  	</td>
                             </tr>
                         </xsl:for-each>
                     </table>
