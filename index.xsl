@@ -18,8 +18,7 @@
                 
                     <table border="2" align="center">
                         <tr bgcolor="blockquote">
-                            <th style="text-align:left">ID</th>
-							<th style="text-align:left">Name</th>
+			    <th style="text-align:left">Name</th>
                             <th style="text-align:left">Age</th>
                             <th style="text-align:left">Salary</th>
                             <th style="text-align:left">Email</th>
@@ -28,10 +27,7 @@
                         </tr>
                         <xsl:for-each select="Company/Employee">
                             <tr>
-                                <td>
-                                    <xsl:value-of select=""/>
-                                </td>
-								<td>
+				 <td>
                                     <xsl:value-of select="emp-name"/>
                                 </td>
                                 <td>
