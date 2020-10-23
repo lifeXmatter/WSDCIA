@@ -57,7 +57,7 @@
                           	    </xsl:when> 
 				    
 				    <xsl:when test = "emp-age &lt; 40 "> 
-                              	    Team Leader 
+                              	    Developer 
                           	    </xsl:when>
 									
 				    <xsl:otherwise> 
